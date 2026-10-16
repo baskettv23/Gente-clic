@@ -1,8 +1,8 @@
 {
   "id": "genteclic",
   "name": "Gente Clic",
-  "version": "1.0.0",
-  "apiVersion": 6,
+  "version": "1.0.1",
+  "apiVersion": 8,
   "entry": "plugin.js",
   "icon": "icon.png",
   "description": "Películas de Genteclic, en español",

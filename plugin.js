@@ -319,6 +319,11 @@ async function resolveEmbed(embedUrl) {
   return await capture(embedUrl);
 }
 
+export async function details(ref) {
+  await null;
+  return null;
+}
+
 export async function resolve(ref) {
   const cut = ref.indexOf("|");
   const movieUrl = cut === -1 ? ref : ref.slice(0, cut);
