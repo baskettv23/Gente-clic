@@ -1,0 +1,17 @@
+{
+  "name": "Gente Clic",
+  "description": "Películas de Genteclic, en español",
+  "version": "1.0.0",
+  "id": "genteclic",
+  "apiVersion": 4,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "authors": [{"name": "baskettv23", "role": "developer"}],
+  "capabilities": {"search": true, "details": true, "resolve": true, "download": true},
+  "categories": ["peliculas"],
+  "language": "es-CO",
+  "region": "CO",
+  "tags": ["movies", "spanish"],
+  "hosts": ["genteclic.com", "www.genteclic.com"],
+  "streamHosts": "any"
+}
