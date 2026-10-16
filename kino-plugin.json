@@ -1,17 +1,39 @@
 {
-  "name": "Gente Clic",
-  "description": "Películas de Genteclic, en español",
-  "version": "1.0.0",
   "id": "genteclic",
-  "apiVersion": 4,
+  "name": "Gente Clic",
+  "version": "1.0.0",
+  "apiVersion": 6,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "authors": [{"name": "baskettv23", "role": "developer"}],
-  "capabilities": {"search": true, "details": true, "resolve": true, "download": true},
-  "categories": ["peliculas"],
-  "language": "es-CO",
-  "region": "CO",
-  "tags": ["movies", "spanish"],
-  "hosts": ["genteclic.com", "www.genteclic.com"],
-  "streamHosts": "any"
+  "description": "Películas de Genteclic, en español",
+  "author": "baskettv23",
+  "homepage": "https://github.com/baskettv23/Gente-clic",
+  "hosts": [
+    "genteclic.com",
+    "*.genteclic.com",
+    "ok.ru",
+    "*.ok.ru",
+    "vk.com",
+    "*.vk.com",
+    "bitchute.com",
+    "*.bitchute.com",
+    "youtube.com",
+    "*.youtube.com",
+    "youtu.be",
+    "vimeo.com",
+    "*.vimeo.com",
+    "dailymotion.com",
+    "*.dailymotion.com"
+  ],
+  "streamHosts": "any",
+  "browser": true,
+  "categories": [
+    "movies"
+  ],
+  "capabilities": [
+    "search",
+    "resolve",
+    "download"
+  ],
+  "color": "#E50914"
 }
